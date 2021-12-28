@@ -1,70 +1,65 @@
-# Getting Started with Create React Index
+<p align="center">
+  <a href="https://github.com/viniciusgugelmin/react">
+    <img src="info/readme.png" alt="readme-logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React Index](https://github.com/facebook/create-react-app).
+  <h3 align="center">react</h3>
 
-## Available Scripts
+  <p align="center">
+    React
+    <br />
+    <a href="https://github.com/viniciusgugelmin/react"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <!--
+    <a href="https://github.com/viniciusgugelmin/react">View Demo</a>
+    ·
+    -->
+    <a href="https://github.com/viniciusgugelmin/react/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/viniciusgugelmin/react/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+<details open="open">
+  <summary><h2 style="display: inline-block">Abstract</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4fun project - ReactJS, NextJS, Styled-Components, Testes com Jest,...
 
-### `npm run build`
+## Roadmap
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the [open issues](https://github.com/viniciusgugelmin/react/issues) for a list of proposed features (and known issues).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Any contributions you make are **greatly appreciated**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/<featureName>`)
+3. Commit your Changes (`git commit -m '<Description of the feature added>'`)
+4. Push to the Branch (`git push origin feature/<featureName>`)
+5. Open a Pull Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React Index documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Vinícius Kruchelski Gugelmin - vinigugelmin@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web Index
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/viniciusgugelmin/react](https://github.com/viniciusgugelmin/react)
