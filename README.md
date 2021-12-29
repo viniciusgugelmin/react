@@ -11,10 +11,8 @@
     <a href="https://github.com/viniciusgugelmin/react"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!--
-    <a href="https://github.com/viniciusgugelmin/react">View Demo</a>
+    <a href="https://vg-react.netlify.app//">View Demo</a>
     ·
-    -->
     <a href="https://github.com/viniciusgugelmin/react/issues">Report Bug</a>
     ·
     <a href="https://github.com/viniciusgugelmin/react/issues">Request Feature</a>

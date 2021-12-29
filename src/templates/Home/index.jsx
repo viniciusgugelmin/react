@@ -11,7 +11,7 @@ export class Home extends Component {
   state = {
     posts: [],
     allPosts: [],
-    postPerPage: 2,
+    postPerPage: 10,
     hasMorePosts: false,
     searchValue: '',
   };
