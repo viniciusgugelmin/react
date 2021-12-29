@@ -1,6 +1,7 @@
 import './styles.css';
 
 import { PostCard } from '../PostCard';
+import P from 'prop-types';
 
 export const Posts = ({ posts = [] }) => (
   <div className="posts">
@@ -9,3 +10,7 @@ export const Posts = ({ posts = [] }) => (
       : 'No posts found'}
   </div>
 );
+
+Posts.propTypes = {
+  posts: P.array,
+};
