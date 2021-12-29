@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> should match snapchot 1`] = `
+<div
+  class="post"
+>
+  <img
+    alt="Lorem ipsum title"
+    src="img/lorem-ipsum-img.png"
+  />
+  <div
+    class="post-content"
+  >
+    <h2>
+      Lorem ipsum title
+    </h2>
+    <p>
+      Lorem ipsum body
+    </p>
+  </div>
+</div>
+`;

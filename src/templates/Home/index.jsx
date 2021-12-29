@@ -17,9 +17,7 @@ export const Home = () => {
   const handleLoadPosts = useCallback(async postPerPage => {
     const postsAndPhotos = await loadPosts();
     const pagedPosts = postsAndPhotos.slice(0, postPerPage);
-    const hasMore = !!(
-      postsAndPhotos.length > 0 && pagedPosts.length !== postsAndPhotos.length
-    );
+    const hasMore = !!(postsAndPhotos.length > 0 && pagedPosts.length !== postsAndPhotos.length);
 
     setPosts(pagedPosts);
     setAllPosts(postsAndPhotos);
@@ -62,11 +60,7 @@ export const Home = () => {
       </div>
       <Posts posts={filteredPosts} />
       <div className="button-container">
-        <Button
-          text="Load more posts"
-          fn={loadMorePosts}
-          disabled={!hasMorePosts}
-        />
+        <Button text="Load more posts" fn={loadMorePosts} disabled={!hasMorePosts} />
       </div>
     </section>
   );

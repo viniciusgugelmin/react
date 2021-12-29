@@ -40,4 +40,15 @@ describe('<Button />', () => {
     const button = screen.getByRole('button', { name: /^load more$/i });
     expect(button).not.toBeDisabled();
   });
+
+  it('should match snapchot', () => {
+    expect.assertions(1);
+
+    const fn = jest.fn();
+    const { container } = render(
+      <Button text="Load more" disabled={false} fn={fn} />,
+    );
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
