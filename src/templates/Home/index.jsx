@@ -10,7 +10,7 @@ import { SearchInput } from '../../components/SearchInput';
 export const Home = () => {
   const [posts, setPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
-  const [postPerPage, setPostsPerPage] = useState(10);
+  const [postPerPage] = useState(10);
   const [hasMorePosts, setHasMorePosts] = useState(false);
   const [searchValue, setSearchValue] = useState('');
 
